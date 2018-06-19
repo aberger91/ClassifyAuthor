@@ -51,16 +51,12 @@
     the model learns the prior probabilities without adjustment for each fold of cross validation. The model uses
     the traditional bayesian formula:
 
-<div style='text-align:center'>
 ![Bayes](data/bayes.svg)
-</div>
 
         Letting x be the boolean describing whether or not the word occurs in a paragraph, the likelihood can be 
         defined as:
 
-<div style='text-align:center'>
 ![Bernoulli](data/bernoulli.svg)
-</div>
 
         Where p sub ki is the probability of the feature occuring in the class.
 
